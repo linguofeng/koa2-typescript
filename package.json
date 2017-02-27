@@ -1,0 +1,22 @@
+{
+  "name": "website-api",
+  "version": "1.0.0",
+  "description": "官网API",
+  "main": "index.js",
+  "repository": "git@gitlab.com:urin/website-api.git",
+  "author": "linguofeng <linguofeng@msn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "start": "gulp watch"
+  }
+}
