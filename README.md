@@ -1,3 +1,17 @@
-使用TypeScript开发Koa2服务
+TypeScript + Koa2
+========================
 
-今天koa 2.0正式版终于发布了，虽然Typescript还不支持async的原生编译，还是用的generators方式，因为node 7.6.0已经原生支持async/await了。
+[![node version][node-image]][node-url]
+
+[node-image]: https://img.shields.io/badge/node.js-%3E=_7.6-green.svg?style=flat-square
+[node-url]: http://nodejs.org/download/
+
+今天koa 2.0正式版终于发布了。
+
+试着写了一个基础的开发框架，参考 https://segmentfault.com/a/1190000007305516
+
+```bash
+$ npm install -g typescript gulp-cli
+$ yarn
+$ yarn start
+```
